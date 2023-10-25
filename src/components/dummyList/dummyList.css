@@ -1,0 +1,10 @@
+.containerList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: brown;
+    text-align: center;
+}
