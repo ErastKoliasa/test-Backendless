@@ -1,0 +1,17 @@
+.container {
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+.item {
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    color: whitesmoke;
+    padding: 5px 15px;
+}
+
+.item:hover {
+    color: brown;
+}
