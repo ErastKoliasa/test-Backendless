@@ -1,10 +1,10 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import React, { Suspense } from "react";
 
-const DummyChart = React.lazy(() => import('./components/dummyChart'));
-const DummyTable = React.lazy(() => import('./components/dummyTable'));
-const DummyList = React.lazy(() => import('./components/dummyList'));
-const DummyContainer = React.lazy(() => import('./components/dummyContainer'));
+const DummyChart = React.lazy(() => import('./components/dummyChart/dummyChart'));
+const DummyTable = React.lazy(() => import('./components/dummyTable/dummyTable'));
+const DummyList = React.lazy(() => import('./components/dummyList/dummyList'));
+const DummyContainer = React.lazy(() => import('./components/dummyContainer/dummyContainer'));
 
 function App() {
   return (
