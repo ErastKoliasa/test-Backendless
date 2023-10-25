@@ -1,0 +1,28 @@
+.title {
+    color: brown;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 10px 40px;
+}
+
+thead {
+    cursor: pointer;
+}
+
+th {
+    background-color: burlywood;
+}
+
+tr {
+    background-color: whitesmoke;
+}
+
+tbody tr:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
