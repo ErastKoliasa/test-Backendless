@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/556.2f8c2c0f.chunk.css","mappings":"AAAA,gBAGI,kBAAmB,CAFnB,YAAa,CACb,qBAEJ,CAEA,OACI,WACJ","sources":["components/dummyChart/dummyChart.css"],"sourcesContent":[".containerChart {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n}\r\n\r\n.title {\r\n    color: brown;\r\n}"],"names":[],"sourceRoot":""}
