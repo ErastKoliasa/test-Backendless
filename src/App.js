@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import React, { Suspense } from "react";
 
 const DummyChart = React.lazy(() => import('./components/dummyChart/dummyChart'));
@@ -9,7 +9,6 @@ const DummyContainer = React.lazy(() => import('./components/dummyContainer/dumm
 function App() {
   return (
     <div>
-      <BrowserRouter>
         <Suspense fallback={<div>Loading...</div>}>
           <DummyContainer />
           <Routes>
@@ -19,7 +18,6 @@ function App() {
             <Route path="dummyList" element={<DummyList />} />
           </Routes>
         </Suspense>
-      </BrowserRouter>
     </div>
   );
 }
